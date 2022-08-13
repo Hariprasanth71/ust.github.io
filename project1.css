@@ -160,7 +160,6 @@ nav a {
 }
 .stat-scroll::-webkit-scrollbar{
     height: 0.2rem;
-    /* width:900rem; */
 }
 .stat-scroll::-webkit-scrollbar-track-piece {
     background: #f2f4f8;
@@ -168,12 +167,11 @@ nav a {
 }
 .stat-scroll::-webkit-scrollbar-thumb {
     border-radius: 30px;
-    /* background-color: #f2f4f8; */
-    /* border-collapse: separate; */
+    background-color: #888;
+
 }
 .stat-scroll::-webkit-scrollbar-button {
-    /* background: blue; */
-    /* width:200px; */
+
     width:2px;
 }
 
@@ -448,7 +446,7 @@ nav a {
     margin: 0 12px;
     text-align: center;
     color: black;
-    height: 37.5rem;
+    height: 37.4rem;
     background-color: #f8f9fb;
 }
 
