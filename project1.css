@@ -775,7 +775,10 @@ a {
         flex-wrap: wrap;
 
     }
-
+    .stat-scroll{
+        display: flex;
+        flex-direction: row;
+    }
     #moblie_style {
         background-color: white;
         width: auto;
@@ -835,24 +838,35 @@ a {
     
     .stat-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
-        width:auto;
-        flex-wrap: wrap;
+        width:100rem;
+        /* width:auto; */
+        /* flex-wrap: wrap; */
     }
+    .stat-scroll{
+        display: flex;
+        /* flex-direction: column; */
+        /* width:50rem; */
 
+    }
     .container-item {
         background-color: white;
         display: flex;
+        flex-direction:row ;
         margin: 0;
-        width:95%;
-    }
+        /* width:95%; */
+        /* padding: 0px 50px; */
+        padding: 16px;
+        width:195rem;
+        /* height: 80%; */
 
+    }
     .container-itemlast {
         background-color: white;
         display: flex;
-        flex-direction: row;
-        padding: 16px;
+        /* flex-direction: row; */
+        /* padding: 16px; */
         width: 94.5%;
     }
 
