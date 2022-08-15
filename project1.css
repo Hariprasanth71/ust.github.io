@@ -38,17 +38,17 @@ html {
 
 .body-top {
 
-    height:30%; 
+    /* height:30%;  */
     /* width: 100%; */
     flex-wrap: wrap;
-    flex-basis: 27%;
+    flex-basis: 28%;
 }
 
 .body-bottom {
 
     display: flex;
     /* height: 70%; */
-    flex-basis: 69%;
+    flex-basis: 69%; 
     flex-wrap: wrap;
     /* width: 70%; */
 }
@@ -310,9 +310,9 @@ nav a {
     background-color: white;
     padding-bottom: 10px;
     /* margin:10px; */
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     margin-left: 15px;
-    width: 98%;
+    /* width: 98%; */
     /* height: 50%; */
     flex-wrap: wrap;
     box-shadow: 0 2px 5px 0 rgba(183, 194, 210, 0.3);
@@ -322,11 +322,10 @@ nav a {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
     align-items: center;
 }
 .second-nav{
-    border-bottom: 2px solid #f2f4f8;
+    border-bottom: 3px solid #f2f4f8;
 }
 .Inbound a:focus {
     border-bottom:0.2rem solid #0097AB;
@@ -340,15 +339,15 @@ nav a {
 
 .Inbound {
     display: flex;
-    /* justify-content: space-between; */
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     font-weight: bold;
+    margin-top: 4px;
 }
 
 .second-nav li {
-    padding: 15px;
+    padding: 9px;
     display: flex;
     justify-content: center;
     /* margin-left: 8px; */
@@ -375,22 +374,21 @@ nav a {
 }
 
 .third-nav li {
-    /* margin: 10px; */
+    margin-bottom: 0px;
     /* align-items: center; */
     /* margin-right: 8px;
     margin-left: 8px; */
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
 
 }
 
 .third-nav a {
     font-family: "Roboto", sans-serif;
-    /* padding: 10px; */
-    padding: 12px 15px;
+    padding: 10px 20px;
     background-color: #f2f4f8;
     font-size: 14px;
-    /* gap:8px; */
+    gap:8px;
     color: #7c8089;
 }
 
@@ -407,7 +405,7 @@ nav a {
 }
 
 .third-nav {
-    margin-top: 10px;
+    margin-top: 15px;    
 
 }
 
@@ -420,6 +418,7 @@ nav a {
 .form {
     display: flex;
     margin-left: 10px;
+    margin-top: 0px;
    
 }
 
@@ -484,12 +483,14 @@ nav a {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     margin-left: 5px;
+    box-shadow: 0 1px 0 0 rgba(183, 194, 210, 0.5);
 }
 
 .content {
     padding: 0.3rem;
     border-radius: 2px;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     background-color: white;
 }
 
@@ -498,6 +499,7 @@ nav a {
     justify-content: space-between;
     margin: 0;
     padding: 0.5rem;
+    /* padding: 10px 10px 20px 10px; */
 }
 
 .left-num {
@@ -613,8 +615,9 @@ nav a {
 }
 
 .scroll {
-    height: 52%;
+    height: 56%;
     width: 59%;
+    margin-top:1px;
     margin-left: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -627,6 +630,7 @@ nav a {
 .scroll-down {
     display: grid;
     width: 100%;
+    
 }
 
 .item {
@@ -636,8 +640,10 @@ nav a {
 .third {
     display: flex;
     justify-content: space-between;
-    padding: 35px;
-    font-size: 16px;
+    /* padding: 35px; */
+    padding:19px 25px 19px 25px;
+
+    font-size: 16px; 
 }
 
 .mini-style {
@@ -667,11 +673,22 @@ nav a {
 .four {
     display: flex;
     /* margin-top: 35px; */
-    align-items: center;
+    /* align-items: center; */
     /* padding: 20px; */
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
+.two-sep
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 8px;
+    background-color: #f2f4f8;
+    margin-top: 25px;
+    margin-left:10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 .first a:hover {
     color: #006E74;
 
@@ -840,12 +857,14 @@ a {
         display: flex;
         flex-direction: row;
         gap: 10px;
-        width:100rem;
+        width:120rem;
+      
         /* width:auto; */
         /* flex-wrap: wrap; */
     }
     .stat-scroll{
         display: flex;
+        /* padding: 5px 5px; */
         /* flex-direction: column; */
         /* width:50rem; */
 
@@ -867,7 +886,7 @@ a {
         display: flex;
         /* flex-direction: row; */
         /* padding: 16px; */
-        width: 94.5%;
+        width: 195rem;
     }
 
     .third-container {
@@ -908,7 +927,8 @@ a {
     .content {
         /* width: 95%; */
         flex-direction: column;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
+        justify-content: space-between;
 
     }
 
