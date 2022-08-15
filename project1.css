@@ -41,7 +41,7 @@ html {
     /* height:30%;  */
     /* width: 100%; */
     flex-wrap: wrap;
-    flex-basis: 28%;
+    flex-basis: 60%;
 }
 
 .body-bottom {
@@ -310,9 +310,9 @@ nav a {
     background-color: white;
     padding-bottom: 10px;
     /* margin:10px; */
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
     margin-left: 15px;
-    /* width: 98%; */
+    width: 98%;
     /* height: 50%; */
     flex-wrap: wrap;
     box-shadow: 0 2px 5px 0 rgba(183, 194, 210, 0.3);
@@ -374,12 +374,12 @@ nav a {
 }
 
 .third-nav li {
-    margin-bottom: 0px;
+    /* margin-top: 9px; */
     /* align-items: center; */
     /* margin-right: 8px;
     margin-left: 8px; */
-    /* display: flex; */
-    flex-direction: row;
+    display: flex;
+    /* flex-direction: column; */
 
 }
 
@@ -388,7 +388,11 @@ nav a {
     padding: 10px 20px;
     background-color: #f2f4f8;
     font-size: 14px;
-    gap:8px;
+    /* gap:8px; */
+    display: flex;   
+    /* margin:7px; */
+    /* flex-direction:column; */
+    flex-wrap: wrap;
     color: #7c8089;
 }
 
@@ -396,18 +400,37 @@ nav a {
     background-color: white;
     display: flex;
     color: #2F3749;
-    align-items: center;
+    flex-direction: row;
+    margin: 13px;
     flex-wrap: wrap;
     gap: 8px;
     margin-left: 10px;
-    justify-content: flex-start;
-    align-items: flex-end;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width:20rem; */
 }
 
-.third-nav {
-    margin-top: 15px;    
+/* third-nav scroll part */
+
+
+.third-nav-scroll {
+    /* margin-top: 15px;     */
+    /* overflow-x: scroll;
+    overflow-y: hidden; */
+    /* white-space: nowrap; */
+  
 
 }
+.third-nav-dup{
+    /* width: 50rem; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    display: none;
+}
+
+
+
+
 
 .num {
     font-weight: bold;
@@ -445,7 +468,8 @@ nav a {
     margin: 0 12px;
     text-align: center;
     color: black;
-    height: 37.4rem;
+    /* height: 38.4rem; */
+    /* width: 39.1rem; */
     background-color: #f8f9fb;
 }
 .asider .asider-header{
@@ -759,7 +783,6 @@ a {
 
     nav {
         background-color: white;
-        
     }
 
     #moblie_style label,
@@ -784,7 +807,7 @@ a {
 
     #moblie_style input:checked~.moblie-view {
         display: block;
-        background-color: #006e74;
+        /* background-color: #006e74; */
         
 
     }
@@ -885,9 +908,11 @@ a {
 
     .third-container {
         background-color: white;
-        padding-bottom: 15px;
-        margin-left: 10px;
-        width: 97%;
+        /* padding-bottom: 15px; */
+        /* margin-left: 10px; */
+        /* margin:5px; */
+        /* width: 50rem; */
+        flex-wrap: wrap;
 
     }
 
@@ -895,23 +920,51 @@ a {
         flex-wrap: wrap;
         display: flex;
     }
-    .third-nav ul
+    .third-nav-scroll {
+        /* margin-top: 15px;     */
+        overflow-x: scroll;
+        overflow-y: hidden;
+        margin:10px;
+        /* white-space: nowrap; */
+      
+    
+    }
+    .third-nav-dup{
+        width: 50rem;
+        display: flex;
+        margin-bottom: 0px;
+        flex-direction: row;
+    }
+    .third-nav-dup ul
     {
         display: flex;
-        flex-direction:row;
-
         
     }
-    .third-nav li{
-        padding:0px 0px;
+    .third-nav-dup li
+    {
+        padding: 7px;
+        margin-right:13px;
+        background-color: #f2f4f8;
+    }
+    .third-nav-dup
+    {
         display: flex;
-        /* flex-direction:column; */
-        margin:5px;
+       
     }
-    .third-nav a {
-        color: black;
-    }
+    .third-nav ul
+    {
+        display: none;
 
+    }
+    .form{
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+    .third-nav-scroll::-webkit-scrollbar{
+        height:0.2rem;
+        padding:10px;
+    }
     .main-content {
         display: flex;
         flex-direction: column;
