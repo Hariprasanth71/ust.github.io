@@ -448,7 +448,9 @@ nav a {
     height: 37.4rem;
     background-color: #f8f9fb;
 }
-
+.asider .asider-header{
+    border-bottom: 3px solid #f2f4f8;
+}
 .asider h1 {
     padding-top: 40px;
 }
@@ -858,15 +860,11 @@ a {
         flex-direction: row;
         gap: 10px;
         width:120rem;
-      
-        /* width:auto; */
-        /* flex-wrap: wrap; */
     }
     .stat-scroll{
         display: flex;
-        /* padding: 5px 5px; */
-        /* flex-direction: column; */
-        /* width:50rem; */
+        margin-left: 10px;
+        margin-right: 2px;
 
     }
     .container-item {
@@ -874,8 +872,6 @@ a {
         display: flex;
         flex-direction:row ;
         margin: 0;
-        /* width:95%; */
-        /* padding: 0px 50px; */
         padding: 16px;
         width:195rem;
         /* height: 80%; */
@@ -884,8 +880,6 @@ a {
     .container-itemlast {
         background-color: white;
         display: flex;
-        /* flex-direction: row; */
-        /* padding: 16px; */
         width: 195rem;
     }
 
@@ -894,7 +888,7 @@ a {
         padding-bottom: 15px;
         margin-left: 10px;
         width: 97%;
-        /* margin-bottom: 10px; */
+
     }
 
     .Inbound li {
