@@ -362,7 +362,7 @@ nav a {
 .view-right {
     display: flex;
     font-family: "Roboto", sans-serif;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     font-size: 0.825rem;
     align-items: center;
 
@@ -468,7 +468,7 @@ nav a {
     margin: 0 12px;
     text-align: center;
     color: black;
-    /* height: 38.4rem; */
+    height: 38.1rem;
     /* width: 39.1rem; */
     background-color: #f8f9fb;
 }
@@ -641,7 +641,7 @@ nav a {
 }
 
 .scroll {
-    height: 56%;
+    height: 54%;
     width: 59%;
     margin-top:1px;
     margin-left: 10px;
@@ -828,20 +828,19 @@ a {
 
     .moblie-view {
         background-color: white;
-        box-shadow: 0 2px 5px 0 rgba(183, 194, 210, 0.3);
     }
 
     .moblie-view ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
 
     .moblie-view li {
         display: flex;
-        /* justify-content: center; */
-        /* align-items: center; */
+        justify-content: center;
+        align-items: center;
     }
 
     #moblie {
@@ -852,7 +851,6 @@ a {
     body {
         background-color: #f2f4f8;
         font-family: "Roboto", sans-serif;
-        /* width: 100%; */
         height: 100%;
     }
 
@@ -860,13 +858,12 @@ a {
         font-size: 0.875rem;
         width:auto;
         background-color: white;
+        box-shadow: none;
     }
     .moblie-view li
     {
         border-bottom: 2px solid black;
-        align-items: center;
         border-radius: 10px;
-        justify-content: center;
 
     }
     .first {
@@ -882,13 +879,12 @@ a {
         display: flex;
         flex-direction: row;
         gap: 10px;
-        width:120rem;
+        width:133rem;
     }
     .stat-scroll{
         display: flex;
-        margin-left: 10px;
-        margin-right: 2px;
-
+        margin:0px;
+        margin-bottom: 10px;
     }
     .container-item {
         background-color: white;
@@ -897,7 +893,6 @@ a {
         margin: 0;
         padding: 16px;
         width:195rem;
-        /* height: 80%; */
 
     }
     .container-itemlast {
@@ -908,11 +903,9 @@ a {
 
     .third-container {
         background-color: white;
-        /* padding-bottom: 15px; */
-        /* margin-left: 10px; */
-        /* margin:5px; */
-        /* width: 50rem; */
         flex-wrap: wrap;
+        margin:0px;
+        width:100%;
 
     }
 
@@ -920,14 +913,11 @@ a {
         flex-wrap: wrap;
         display: flex;
     }
+
     .third-nav-scroll {
-        /* margin-top: 15px;     */
         overflow-x: scroll;
         overflow-y: hidden;
         margin:10px;
-        /* white-space: nowrap; */
-      
-    
     }
     .third-nav-dup{
         width: 50rem;
@@ -958,16 +948,18 @@ a {
     }
     .form{
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
         /* flex-wrap: wrap; */
+        width:96%;
     }
     .third-nav-scroll::-webkit-scrollbar{
         height:0.2rem;
-        padding:10px;
     }
     .main-content {
         display: flex;
         flex-direction: column;
+        margin:0px;
+        padding: 0px;
 
     }
 
@@ -975,6 +967,8 @@ a {
         /* width: 95%; */
         flex-direction: column;
         flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
         justify-content: space-between;
 
     }
@@ -982,10 +976,11 @@ a {
     .asider {
         font-size: small;
         margin-top: 310px;
-        /* position: relative; */
         color: black;
-        margin-left: 1px;
-        width:98.5%;
+        width:100%;
+        height: 0px;
+        padding-left: 0;
+        margin-left: 0px;
         background-color: #f8f9fb;
     }
 
@@ -1005,7 +1000,6 @@ a {
     }
 
     .Risk {
-        padding: 3px;
         font-weight: bolder;
     }
 
@@ -1025,19 +1019,18 @@ a {
     .body-right {
         display: flex;
         flex-direction: column;
-
+        margin-left:0px;
         padding-top: 2rem;
-        margin-left: 10px;
+        width:100%;
 
     }
 
     .scroll {
-        width: 98%;
-        margin-left: 6px;
+        width: 100%;
         flex-wrap: wrap;
         overflow-y: scroll;
+        margin: 0px;
         height:22rem;
-        /* position: absolute; */
     }
 
 }
