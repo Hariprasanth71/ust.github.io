@@ -760,8 +760,6 @@ a {
 
 
 
-
-
 }
 
 ::-webkit-scrollbar {
@@ -868,6 +866,7 @@ a {
         background-color: #f2f4f8;
         font-family: "Roboto", sans-serif;
         height: 100%;
+        /* margin:10px; */
     }
 
     header {
@@ -904,6 +903,8 @@ a {
         display: flex;
         margin: 0px;
         margin-bottom: 10px;
+        margin-left:10px;
+        margin-right: 10px;
     }
 
     .container-item {
@@ -926,7 +927,9 @@ a {
         background-color: white;
         flex-wrap: wrap;
         margin: 0px;
-        width: 100%;
+        width: 95%;
+        margin-left:10px;
+        margin-right: 10px;
 
     }
 
@@ -1024,11 +1027,13 @@ a {
         font-size: small;
         margin-top: 310px;
         color: black;
-        width: 100%;
+        width: 94.5%;
         height: 0px;
         padding-left: 0;
-        margin-left: 0px;
+        /* margin-left: 0px; */
         background-color: #f8f9fb;
+        margin-left:10px;
+        margin-right: 10px;
     }
 
     .asider h1 {
@@ -1072,11 +1077,13 @@ a {
     }
 
     .scroll {
-        width: 100%;
+        width: 95%;
         flex-wrap: wrap;
         overflow-y: scroll;
         margin: 0px;
         height: 22rem;
+        margin-left:10px;
+        margin-right: 10px;
     }
 
 
