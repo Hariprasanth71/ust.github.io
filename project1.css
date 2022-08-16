@@ -93,7 +93,10 @@ header {
     display: flex;
 
 }
-
+.first .action:active
+{
+    border-bottom: 2px solid #0097AB;
+}
 .first li {
     border-left: 2px solid #f2f4f8;
     padding: 1.39rem 1.5rem;
@@ -146,6 +149,7 @@ nav a {
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    width:4.5rem;
 }
 
 .stat-container {
@@ -752,6 +756,12 @@ a {
     background-color: #0097AB;
     outline: none;
     color: white;
+
+
+
+
+
+
 }
 
 ::-webkit-scrollbar {
@@ -942,13 +952,35 @@ a {
         display: flex;
 
     }
-
-    .third-nav-dup li {
-        padding: 7px;
-        margin-right: 13px;
-        background-color: #f2f4f8;
+    .third-nav-dup a:focus{
+        background-color: #0097AB;
+        outline: none;
+        color: white;
     }
+    .third-nav-dup li {
 
+        display: flex;
+    
+    }
+    
+    .third-nav-dup a {
+        font-family: "Roboto", sans-serif;
+        padding: 10px 20px;
+        background-color: #f2f4f8;
+        font-size: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        color: #7c8089;
+    }
+    
+    .third-nav-dup ul {
+        background-color: white;
+        display: flex;
+        color: #2F3749;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
     .third-nav-dup {
         display: flex;
 
