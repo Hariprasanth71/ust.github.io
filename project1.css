@@ -673,7 +673,7 @@ nav a {
 }
 
 .scroll {
-    height:26.2rem;
+    height:27.3rem;
     display: flex;
     flex-wrap: wrap;
     overflow-y: scroll;
@@ -1320,6 +1320,8 @@ a {
         width:98.8%;
         margin: 0px;
         position: relative;
+
+    
      
     }
 
