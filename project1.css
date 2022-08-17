@@ -858,7 +858,11 @@ a {
         background-color: white;
         width: auto;
     }
-
+    .moblie-view .active li
+    {
+      
+        color: #36c8ea;
+    }
     .moblie-view 
     {
         background-color: white;
@@ -879,7 +883,10 @@ a {
         /* justify-content: start; */
         align-items: center;
     }
-
+    .moblie-view a
+    {
+        padding:1rem;
+    }
     #moblie
     {
         display: none;
