@@ -41,7 +41,7 @@ html {
 .body-top {
     height: 10.7rem;
     flex-basis: 60%;
-    /* flex-wrap: wrap; */
+ 
 }
 
 .body-bottom {
@@ -93,7 +93,7 @@ header {
 }
 
 .first {
-    border-bottom: 2px solid #36c8ea;
+    /* border-bottom: 2px solid #36c8ea; */
 }
 
 .first li {
@@ -1150,12 +1150,14 @@ a {
         position: absolute;
         left: 10px;
         transform: translateY(-8.2%);
+        display: flex;
         cursor: pointer;
     }
 
     .rig {
         position: absolute;
         right: 10px;
+        display: flex;
         transform: translateY(-9%);
         cursor: pointer;
     }
