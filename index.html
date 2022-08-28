@@ -66,6 +66,7 @@
             </div>
             <div class="m_view">
                 <ul class="menu">
+                    <div class="screen-1">
                     <a href="#" class="dashboard active">
                         <li><img src="/Home-blue.png" alt="shipment_icon" />
                             <div>Dashboard</div>
@@ -91,6 +92,8 @@
                             <div>Action panel</div>
                         </li>
                     </a>
+                </div>
+                <div class="screen-2"></div>
                 </ul>
                 <button class="hamburger">
                     <i class="menuIcon material-icons">&#9776;</i>
@@ -106,7 +109,8 @@
                 <p>></p>
             </div>
             <div class="Prev" id="Preva" onclick="Pl_slide(-1)">
-                <p><</p>
+                <p>
+                    << /p>
 
             </div>
             <div class="stat-container">
@@ -261,7 +265,6 @@
 
     <div class="body-container">
         <div class="body-left">
-            <!-- <div class="left_1"> -->
             <div class="body-top">
                 <div class="third-container">
                     <div class="second-nav">
@@ -327,56 +330,40 @@
                         </ul>
                     </div>
                     <div class="third-nav-scroll" id="third-nav-dup1">
+                        <div onclick="leftScroll()" class="le"><img src="/arrow-left.png"></div>
+                        <div onclick="rightScroll()" class="rig"><img src="/Group 36989.png"></div>
                         <div class="third-nav-dup">
                             <ul>
-                                <div onclick="arrows(1)" class="right-arrow"><img src="/Group 36989.png"></div>
-                                <div onclick="arrows(-1)" class="left-arrow"><img src="/Group 36989.png"></div>
-                                <a href="#" class="all active" id="mo_scroll">
-                                    <li>
-                                        <div>All <span><b>(25)</b></span></div>
+                                <li class="all active">All&#160;<b>(25)</b></li>
+                                <a href="#">
+                                    <li>Delayed&#160;<p class="red"><b>(10)</b></p>
                                     </li>
                                 </a>
-                                <a href="#" id="mo_scroll">
-                                    <li>
-                                        <div>Delayed <span class="red active"><b>(10)</b></span></div>
-                                    </li>
+                                <a href="#">
+                                    <li>Early&#160;<b class="third-num">(6)</b></li>
                                 </a>
-                                <a href="#" id="mo_scroll">
-                                    <li>
-                                        <div>Early <span><b>(6)</b></span></div>
-                                    </li>
+                                <a href="#">
+                                    <li>Rescheduled&#160;<b class="third-num">(2)</b></li>
                                 </a>
-                                <a href="#" id="mo_scroll">
-                                    <li>
-                                        <div>Rescheduled <span><b>(2)</b></span></div>
-                                    </li>
+                                <a href="#">
+                                    <li>Under&#160;Review&#160;<b class="third-num">(7)</b></li>
                                 </a>
-                                <a href="#" id="mo_scroll">
-                                    <li>
-                                        <div>Under Review <span><b>(7)</b></span></div>
-                                    </li>
-                                </a>
-                                <a href="#" id="mo_scroll">
-                                    <li>
-                                        <div>On Time <span><b>(9)</b></span></div>
-                                    </li>
+                                <a href="#">
+                                    <li>OnTime&#160;<b class="third-num">(9)</b></li>
                                 </a>
                             </ul>
                         </div>
                     </div>
-
                     <div class="form">
                         <button class="search"><img src="/Group 33795.png"></button>
                         <input class="search-box" type="text" id="myInput" onkeyup="serch()"
                             placeholder="Search by: Shipment ID, Origin, Destination, Product category, ventor">
                     </div>
-
                 </div>
-                <br>
             </div>
 
             <div class="body-bottom">
-                <div class="scroll" id="scrolls"> 
+                <div class="scroll" id="scrolls">
                     <div class="content" id="contents">
                         <div class="one" id="ones">
                             <div class="left">
